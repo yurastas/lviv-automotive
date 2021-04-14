@@ -4,9 +4,10 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+    margin:auto; 
+    padding:auto;
+    max-width: 1920px;
+    font-family:Poppins, sans-serif;
 }
 
 .overheader {
@@ -37,13 +38,8 @@ nav .menu {
     transition: color 0.7s;
     background-color: red;
 }
-
-header .background {
-    background-image: url(img/background.webp);
-    background-size: cover;
-    background-position: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 400px;
+ 
+header {
+    background-image:url(../img/background.webp);
 }
 
