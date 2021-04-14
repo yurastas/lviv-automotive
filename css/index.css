@@ -1,0 +1,49 @@
+:root {
+    --red: #F00000;
+    --white: #FFFFFF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.overheader {
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+}
+
+nav .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid red;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: red;
+}
+
+header .background {
+    background-image: url(img/background.webp);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 400px;
+}
+
