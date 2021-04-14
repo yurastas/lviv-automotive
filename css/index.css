@@ -6,7 +6,7 @@
 body {
     margin:auto; 
     padding:auto;
-    max-width: 1920px;
+    max-width: 980px;
     font-family:Poppins, sans-serif;
 }
 
@@ -42,7 +42,6 @@ nav .menu {
  
 header {
     background-image:url(../img/background.webp);
-    width: 1920px;
     height: 1240px;
 }
 
