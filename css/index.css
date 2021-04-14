@@ -41,5 +41,16 @@ nav .menu {
  
 header {
     background-image:url(../img/background.webp);
+    width: 1920px;
+    height: 1240px;
+}
+
+.name-logo {
+    font-family: Poppins, serif;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 41px;
+    margin-left: 25px;
+    margin-top: 30px;
 }
 
